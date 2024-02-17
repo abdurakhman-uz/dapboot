@@ -41,15 +41,15 @@
 #ifndef USB_PRODUCT_STRING
 
 #ifdef BOOTLOADER_HIGH
-#define USB_PRODUCT_STRING "DAPBoot High-Memory DFU Bootloader"
+#define USB_PRODUCT_STRING "DFU Bootloader"
 #else
-#define USB_PRODUCT_STRING "DAPBoot DFU Bootloader"
+#define USB_PRODUCT_STRING "DFU Bootloader"
 #endif
  
 #endif
 
 #ifndef USB_INTERFACE_STRING
-#define USB_INTERFACE_STRING "DAPBoot DFU"
+#define USB_INTERFACE_STRING "STM32 DFU"
 #endif
 
 #define USB_CONTROL_BUF_SIZE    1024
